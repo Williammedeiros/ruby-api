@@ -5,7 +5,6 @@ pipeline {
       steps {
         fileExists 'Gemfile'
         fileExists 'Dockerfile'
-        sh 'docker info'
       }
     }
     stage('Build') {
