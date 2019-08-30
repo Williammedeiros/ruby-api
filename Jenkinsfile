@@ -18,7 +18,7 @@ pipeline {
         sh 'docker run -d -p 4567:4567 codeopsbr/ruby-ci-example'
       }
     }
-    stage('Aprovação') {
+    stage('Aprovalll') {
       steps {
         input 'Voce aprova?'
       }
